@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.container{
+    max-width: 400px;
+    background-color: #f3f0f0;
+    margin: 20px auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+form input{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+form button{
+    color: #ffffff;
+    background-color: #000;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.formDesign{
+    padding: 15px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.img{
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: none;
+}
+
+.f{
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d4d
+}
+
+.r1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.r1 h1{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.r1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.r2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.r2 .f2{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 25px;
+}
+
+@media(max-width:500px){
+    .container{
+        width: 320px;
+    }
+
+    .f{
+        width: 70px;
+    }
+
+    .r1 h1{
+        font-size: 20px;
+    }
+
+    .r1 h3{
+        font-size: 12px;
+    }
+}
